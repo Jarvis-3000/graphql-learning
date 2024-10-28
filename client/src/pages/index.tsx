@@ -7,7 +7,7 @@ export default function Pages() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<Tracks />} path="/" />
+        <Route element={<Tracks />} path="/tracks" />
       </Routes>
     </BrowserRouter>
   );
